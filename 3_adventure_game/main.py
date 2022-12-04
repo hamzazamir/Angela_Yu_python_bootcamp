@@ -24,12 +24,15 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island!!")
 print("Your mission is to find the treasure.")
 
-first_choice = input("You're at the cross road. Where do you want to go? Type 'left' or 'right' ").lower()
+first_choice = input(
+    "You're at the cross road. Where do you want to go? Type 'left' or 'right' ").lower()
 
 if first_choice == "left":
-    second_choice = input("You have arrived at a river. Do you want to swim or wait for a boat? Type 'swim' or 'wait' ").lower()
+    second_choice = input(
+        "You have arrived at a river. Do you want to swim or wait for a boat? Type 'swim' or 'wait' ").lower()
     if second_choice == "wait":
-        third_choice = input("The boat has taken you to three doors. Which door do you want to open? Type 'one', 'two' or 'three' ").lower()
+        third_choice = input(
+            "The boat has taken you to three doors. Which door do you want to open? Type 'one', 'two' or 'three' ").lower()
         if third_choice == "one":
             print("Well done you found the treasure!!")
         elif third_choice == "two":
